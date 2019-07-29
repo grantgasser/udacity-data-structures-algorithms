@@ -13,6 +13,7 @@ elements are in a strictly increasing order.
 Return the index of value, or -1 if the value
 doesn't exist in the list."""
 
+# Iterative 
 def binary_search(input_array, value):
     low = 0
     high = len(input_array) - 1
@@ -26,7 +27,7 @@ def binary_search(input_array, value):
             low = mid + 1
         else:
             high = mid - 1
-            
+
     return -1
 
 test_list = [1,3,9,11,15,19,29]
