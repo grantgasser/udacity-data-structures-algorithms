@@ -11,6 +11,7 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 
 ## Hashing (hashing.py)
 * Create HashTable object using Python list
+* Hashing strings, particularly the first two letters of string
 * Bucket size 10,000
 * Load factor is % of table filled
 * Hash value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter
@@ -22,11 +23,11 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 * O(log n) search
 
 ## Trees
-* connected graphs, acyclic, directed
-* root (top node, first node)
-* parent and child
-* leaf is a bottom node
-* if node doesn't point to other node, usually points to Null (None)
+* Connected graphs, acyclic, directed
+* Root (top node, first node)
+* Parent and child
+* Leaf is a bottom node
+* If node doesn't point to other node, usually points to Null (None)
 * Traversing is done recursively
 
 ## Binary Tree (binarytree.py)
