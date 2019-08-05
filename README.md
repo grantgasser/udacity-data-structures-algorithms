@@ -22,7 +22,7 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 * Assumes data is sorted
 * O(log n) search
 
-## Trees
+## Trees (A type of graph)
 * Connected graphs, acyclic, directed
 * Root (top node, first node)
 * Parent and child
@@ -43,3 +43,11 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 * In-order traversal is sorted order
 * Can degrade to looking like linked list => O(n) search in worst case
 * Enter self-balancing trees (AVL, Red-black)
+
+## Graph (graph.py)
+* Node class contains value and list of edges connected to that node
+* Edge class contains value, references to node from and node to
+* Graph class contains list of nodes and list of edges
+* Insert node is simple
+* Insert edge is a little more complicated.
+* Get representation of edge list, adjacency list, and adjacency matrix
