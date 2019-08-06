@@ -51,3 +51,7 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 * Insert node is simple
 * Insert edge is a little more complicated.
 * Get representation of edge list, adjacency list, and adjacency matrix
+
+## Graph (graph2.py)
+* Here I implemented DFS (recursive) and BFS (iterative)
+* The rest of the code was written by Udacity
