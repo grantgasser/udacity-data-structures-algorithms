@@ -10,7 +10,8 @@ These are exercises done as part of the Udacity Data Structures and Algorithms i
 * Could also use a Python deque, which allows enqueueing and dequeueing from both ends - `from collections import deque`
 
 ## Hashing (hashing.py)
-* Create HashTable object using Python dictionary
+* Can use Python dictionary as hashtable/hashmap
+* Create HashTable object using Python list
 * Hashing strings, particularly the first two letters of string
 * Bucket size 10,000
 * Load factor is % of table filled
