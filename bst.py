@@ -47,12 +47,12 @@ class BST(object):
         else:
             if current.value < find_val:
                 if current.right:
-                    self.search_helper(current.right, find_val)
+                    return self.search_helper(current.right, find_val)
                 else:
                     return False
             elif current_value > find_val:
                 if current.left:
-                    self.search_helper(current.left, find_val)
+                    return self.search_helper(current.left, find_val)
                 else:
                     return False
 
